@@ -1,0 +1,22 @@
+{
+  "name": "bot-360",
+  "version": "1.0.0",
+  "description": "This repo contains the code used to display 360 images of VCH sites on the Board Orientation Tool.",
+  "main": "vgh.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learnwithus/BOT-360.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learnwithus/BOT-360/issues"
+  },
+  "homepage": "https://github.com/learnwithus/BOT-360#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
