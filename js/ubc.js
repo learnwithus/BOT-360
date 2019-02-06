@@ -14,17 +14,17 @@ let ubc1,
     viewer;
 
 // create the panoramas
-ubc1 = new PANOLENS.ImagePanorama('../assets/ubc/ubc1.jpg');
-ubc2 = new PANOLENS.ImagePanorama('../assets/ubc/ubc2.jpg');
-ubc3 = new PANOLENS.ImagePanorama('../assets/ubc/ubc3.jpg');
-ubc4 = new PANOLENS.ImagePanorama('../assets/ubc/ubc4.jpg');
-ubc5 = new PANOLENS.ImagePanorama('../assets/ubc/ubc5.jpg');
-ubc6 = new PANOLENS.ImagePanorama('../assets/ubc/ubc6.jpg');
-ubc7 = new PANOLENS.ImagePanorama('../assets/ubc/ubc7.jpg');
-ubc8 = new PANOLENS.ImagePanorama('../assets/ubc/ubc8.jpg');
-ubc9 = new PANOLENS.ImagePanorama('../assets/ubc/ubc9.jpg');
-ubc10 = new PANOLENS.ImagePanorama('../assets/ubc/ubc10.jpg');
-ubc11 = new PANOLENS.ImagePanorama('../assets/ubc/ubc11.jpg');
+ubc1 = new PANOLENS.ImagePanorama('./assets/ubc/ubc1.jpg');
+ubc2 = new PANOLENS.ImagePanorama('./assets/ubc/ubc2.jpg');
+ubc3 = new PANOLENS.ImagePanorama('./assets/ubc/ubc3.jpg');
+ubc4 = new PANOLENS.ImagePanorama('./assets/ubc/ubc4.jpg');
+ubc5 = new PANOLENS.ImagePanorama('./assets/ubc/ubc5.jpg');
+ubc6 = new PANOLENS.ImagePanorama('./assets/ubc/ubc6.jpg');
+ubc7 = new PANOLENS.ImagePanorama('./assets/ubc/ubc7.jpg');
+ubc8 = new PANOLENS.ImagePanorama('./assets/ubc/ubc8.jpg');
+ubc9 = new PANOLENS.ImagePanorama('./assets/ubc/ubc9.jpg');
+ubc10 = new PANOLENS.ImagePanorama('./assets/ubc/ubc10.jpg');
+ubc11 = new PANOLENS.ImagePanorama('./assets/ubc/ubc11.jpg');
 
 // create a panorama viewer
 viewer = new PANOLENS.Viewer({
