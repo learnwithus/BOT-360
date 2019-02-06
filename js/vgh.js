@@ -37,10 +37,14 @@ vgh15 = new PANOLENS.ImagePanorama('./assets/vgh/vgh15.jpg');
 vgh16 = new PANOLENS.ImagePanorama('./assets/vgh/vgh16.jpg');
 vgh17 = new PANOLENS.ImagePanorama('./assets/vgh/vgh17.jpg');
 
+// define the DOM element that will contain the panolens
+panolensContainer = document.querySelector('#panolens-container');
+
 // create a panorama viewer
 viewer = new PANOLENS.Viewer({
   output: 'console', // where to output Panolens logging
   cameraFov: 85,
+  container: panolensContainer
 });
 
 // add event listeners to the panoramas to set the 'initial look' positions
