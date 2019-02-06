@@ -26,10 +26,14 @@ ubc9 = new PANOLENS.ImagePanorama('./assets/ubc/ubc9.jpg');
 ubc10 = new PANOLENS.ImagePanorama('./assets/ubc/ubc10.jpg');
 ubc11 = new PANOLENS.ImagePanorama('./assets/ubc/ubc11.jpg');
 
+// define the DOM element that will contain the panolens
+panolensContainer = document.querySelector('#panolens-container');
+
 // create a panorama viewer
 viewer = new PANOLENS.Viewer({
   output: 'console', // where to output Panolens logging
   cameraFov: 85,
+  container: panolensContainer
 });
 
 // add event listeners to the panoramas to set the 'initial look' positions
