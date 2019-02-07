@@ -33,7 +33,8 @@ panolensContainer = document.querySelector('#panolens-container');
 viewer = new PANOLENS.Viewer({
   output: 'console', // where to output Panolens logging
   cameraFov: 85,
-  container: panolensContainer
+  container: panolensContainer,
+  autoHideInfospot: false
 });
 
 // add event listeners to the panoramas to set the 'initial look' positions
